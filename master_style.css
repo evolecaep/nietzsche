@@ -1,0 +1,99 @@
+/*---- load webfonts ----*/
+
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---- main attributes ----*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  border-style: none;
+
+  font-family: 'MaruBuri-Regular', 'serif';
+  font-weight: normal;
+
+
+}
+
+/*---- paragraph attributes ----*/
+
+p {
+  font-family: 'MaruBuri-Regular', 'serif';
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.left {
+  text-align: justify;
+}
+
+.right{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.quote{
+  text-align: justify;
+  font-style: italic;
+}
+
+.ref {
+  text-align: right;
+  font-style: italic;
+}
+
+
+/*---- highlight attributes ----*/
+
+h1 h2 h3 h4 h5{
+  text-align:center;
+}
+
+h1{
+  font-size: 96px;
+  font-family: 'HeirofLightBold', 'serif';
+}
+
+h2{
+  font-size: 80px;
+  font-family: 'HeirofLightBold', 'serif';
+}
+
+h3{
+  font-size: 48px;
+}
+
+h4{
+  font-size: 32px;
+}
+
+h5{
+  font-size: 64px;
+  font-family: 'HeirofLightBold', 'serif';
+}

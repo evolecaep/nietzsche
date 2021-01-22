@@ -17,7 +17,7 @@
 .back_grid {
 	display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1100px 1500px 1800px 1400px;
+  grid-template-rows: 1100px 1500px 1850px 1400px;
   grid-template-areas:
     " background1 "
 		" background2 "

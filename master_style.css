@@ -45,6 +45,12 @@ p {
   margin-bottom: 1em;
 }
 
+.writing{
+	color: #CCCCCC;
+	font-size: 49px;
+  font-family: 'HeirofLightBold', 'serif';
+	text-align: justify;
+}
 
 .left {
   text-align: justify;

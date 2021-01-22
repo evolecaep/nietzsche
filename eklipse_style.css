@@ -17,31 +17,65 @@
 .back_grid {
 	display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 927px 2300px 927px;
+  grid-template-rows: 600px 700px 870px 700px 930px 700px 1400px 700px 650px;
   grid-template-areas:
     " background1 "
 		" background2 "
-    " background3 ";
+		" background3 "
+		" background4 "
+		" background5 "
+		" background6 "
+		" background7 "
+		" background8 "
+		" background9 ";
+		background-image: url("image/bg5_1.png");
+		background-repeat: repeat;
 }
 
 .background1 {
   grid-area: background1;
-  background-image:url("image/bg3_1.png");
-  background-color: #56565A;
+
 }
 
 .background2 {
 	grid-area: background2;
-	background-image:url("image/bg3_2.png");
-	background-color: #56565A;
+	background-image: url("image/infR.png");
+	background-size: 1214px 696px;
+
 }
 
 .background3 {
-  grid-area: background3;
-	background-image:url("image/bg3_3.png");
-  background-color: #56565A;
+	grid-area: background3;
 }
 
+.background4 {
+	grid-area: background4;
+	background-image: url("image/infG.png");
+	background-size: 1214px 696px;
+}
+
+.background5 {
+	grid-area: background5;
+}
+
+.background6 {
+	grid-area: background6;
+	background-image: url("image/infB.png");
+	background-size: 1214px 696px;
+}
+
+.background7 {
+	grid-area: background7;
+}
+
+.background8 {
+	grid-area: background8;
+	background-image: url("image/inf.png");
+}
+
+.background9 {
+	grid-area: background9;
+}
 
 .text_grid {
   display: grid;
@@ -50,15 +84,7 @@
   grid-template-areas:
   " left text right";
   align-items: stretch;
-}
-
-.text_grid2{
-	display: grid;
-	grid-template-columns: 1fr 600px 600px 1fr;
-	grid-template-rows: 1fr;
-	grid-template-areas:
-	" left textA textB right";
-	align-items: stretch;
+	margin-top:50px;
 }
 
 .left_wing{
@@ -100,67 +126,58 @@
 
 }
 
+
 .text1{
   grid-area: text;
 	text-align:justify;
-	color: #FEF2D9;
-	font-size: 24px;
-	line-height: 1.5em;
-}
-
-.textA{
-  grid-area: textA;
-	text-align: justify;
-	padding-right:50px;
-	color: #E2E2E2;
-
-	font-size: 24px;
-	line-height: 1.5em;
-
-}
-
-.textB{
-  grid-area: textB;
-	text-align: justify;
-	padding-left:50px;
-	color: #424242;
+	color: #FFB1B0;
 	font-size: 24px;
 	line-height: 1.5em;
 }
 
 .text2{
-	padding-top:300px;
   grid-area: text;
 	text-align:justify;
-	color: #FEF2D9;
+	color: #B4F0A7;
 	font-size: 24px;
 	line-height: 1.5em;
 }
+
+.text3{
+  grid-area: text;
+	text-align:justify;
+	color: #A9D1F7;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
+.text4{
+  grid-area: text;
+	text-align:justify;
+	color: #A9D1F7;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
 
 .no_text{
 	grid-area: text ;
 }
 
-.my_textA{
+.my_text{
 	margin-top: 100px;
 	text-indent: 3em;
-	color: 	#F2F3F5;
-}
-
-.my_textB{
-	margin-top: 100px;
-	text-indent: 3em;
-	color: 	#2B2B2D;
+	color: #ffffff;
 }
 
 .hl {
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .hl2{
 	color: #000000;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 
@@ -188,5 +205,5 @@ a:visited {
 	color: inherit; text-decoration: none;
 }
 a:hover {
-	color: inherit; text-decoration: none; color: lightPink;
+	color: lightGrey; text-decoration: none;
 }
